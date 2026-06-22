@@ -1,6 +1,6 @@
 ````md
 <div align="center">
-  <img src="https://raw.githubusercontent.com/MAFAZ9416/MAFAZ9416/main/profile-banner.png" width="100%">
+  <img src="https://raw.githubusercontent.com/MAFAZ9416/MAFAZ9416/main/profile-banner.png" width="100%" />
 </div>
 
 <p align="center">
@@ -21,6 +21,16 @@ Backend Developer 🚀 | Django & DRF Specialist
   <img src="https://komarev.com/ghpvc/?username=MAFAZ9416&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
 </p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/mohammed-mafaz-t-s-778602376/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+
+  <a href="https://mafaz-portfolio-gold.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
+</p>
+
 ---
 
 ## 💫 About Me
@@ -39,12 +49,26 @@ Backend Developer 🚀 | Django & DRF Specialist
 class MohammedMafaz:
 
     def __init__(self):
+        self.name = "Mohammed Mafaz T.S."
         self.role = "Backend Developer"
         self.specialization = "Django & DRF"
+
         self.languages = ["Python"]
-        self.frameworks = ["Django", "DRF"]
-        self.databases = ["PostgreSQL", "MySQL"]
-        self.current_focus = "Building Real-World APIs"
+
+        self.frameworks = [
+            "Django",
+            "Django REST Framework"
+        ]
+
+        self.databases = [
+            "PostgreSQL",
+            "MySQL"
+        ]
+
+        self.current_focus = (
+            "Building scalable and secure APIs"
+        )
+
         self.goal = "Backend Engineer"
 
     def motto(self):
@@ -56,7 +80,7 @@ class MohammedMafaz:
 ## ⚒ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,django,postgres,mysql,git,github,vscode,docker,postman" />
+  <img src="https://skillicons.dev/icons?i=python,django,postgres,mysql,git,github,docker,vscode,postman" />
 </p>
 
 ---
@@ -104,7 +128,7 @@ class MohammedMafaz:
 ## 🔥 GitHub Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=MAFAZ9416&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=MAFAZ9416&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
@@ -112,21 +136,7 @@ class MohammedMafaz:
 ## 📈 Contribution Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MAFAZ9416&theme=react-dark" />
-</p>
-
----
-
-## 🌐 Connect With Me
-
-<p align="center">
-  <a href="YOUR_LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin" />
-  </a>
-
-  <a href="YOUR_PORTFOLIO">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel" />
-  </a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MAFAZ9416&theme=react-dark"/>
 </p>
 
 ---
