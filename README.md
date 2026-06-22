@@ -2,6 +2,7 @@
   <img src="https://raw.githubusercontent.com/MAFAZ9416/MAFAZ9416/main/profile-banner.png" width="100%" alt="Mohammed Mafaz Banner">
 </div>
 
+
 <h1 align="center">Hi 👋, I'm Mohammed Mafaz T.S.</h1>
 
 <h3 align="center">
