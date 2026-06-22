@@ -27,18 +27,18 @@
 </p>
 
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=MAFAZ9416&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
+<img src="https://komarev.com/ghpvc/?username=MAFAZ9416&label=Profile+Views&color=0e75b6&style=for-the-badge" />
 </p>
 
 ---
 
 # 💫 About Me
 
-* 🔭 Building scalable backend applications.
-* 🌱 Currently learning Docker & System Design.
-* 💬 Ask me about Django, DRF and Python.
-* ⚡ Passionate about REST APIs.
-* 🎯 Goal: Backend Engineer.
+* 🔭 Building scalable backend applications
+* 🌱 Currently learning Docker & System Design
+* 💬 Ask me about Django, DRF and Python
+* ⚡ Passionate about REST APIs
+* 🎯 Goal: Backend Engineer
 
 ---
 
@@ -112,9 +112,9 @@ class MohammedMafaz:
 # 📊 GitHub Statistics
 
 <p align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=MAFAZ9416&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+<img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=MAFAZ9416&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MAFAZ9416&layout=compact&theme=tokyonight&hide_border=true" />
+<img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=MAFAZ9416&layout=compact&theme=tokyonight"/>
 </p>
 
 ---
@@ -122,7 +122,7 @@ class MohammedMafaz:
 # 🔥 GitHub Streak
 
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=MAFAZ9416&theme=tokyonight&hide_border=true" />
+<img src="https://streak-stats.demolab.com?user=MAFAZ9416&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
@@ -130,7 +130,7 @@ class MohammedMafaz:
 # 📈 Contribution Graph
 
 <p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MAFAZ9416&bg_color=1a1b27&color=70a5fd&line=38bdae&point=ffffff&hide_border=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MAFAZ9416&bg_color=1a1b27&color=70a5fd&line=38bdae&point=ffffff&hide_border=true"/>
 </p>
 
 ---
@@ -138,17 +138,17 @@ class MohammedMafaz:
 # 📋 Profile Summary
 
 <p align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MAFAZ9416&theme=tokyonight" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MAFAZ9416&theme=tokyonight"/>
 </p>
 
 ---
 
-# 📚 Languages & Commits
+# 📚 Languages & Commit Statistics
 
 <p align="center">
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MAFAZ9416&theme=tokyonight" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MAFAZ9416&theme=tokyonight"/>
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MAFAZ9416&theme=tokyonight" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MAFAZ9416&theme=tokyonight"/>
 </p>
 
 ---
@@ -156,15 +156,7 @@ class MohammedMafaz:
 # ⏰ Productive Time
 
 <p align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MAFAZ9416&theme=tokyonight&utcOffset=5.5" />
-</p>
-
----
-
-# 🏆 GitHub Trophies
-
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=MAFAZ9416&theme=tokyonight&no-frame=true&row=1&column=6" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MAFAZ9416&theme=tokyonight&utcOffset=5.5"/>
 </p>
 
 ---
