@@ -2,7 +2,6 @@
   <img src="https://raw.githubusercontent.com/MAFAZ9416/MAFAZ9416/main/profile-banner.png" width="100%" alt="Mohammed Mafaz Banner">
 </div>
 
-
 <h1 align="center">Hi 👋, I'm Mohammed Mafaz T.S.</h1>
 
 <h3 align="center">
@@ -10,11 +9,11 @@
 </h3>
 
 <p align="center">
-🎓 BCA Student &nbsp; • &nbsp; 🇮🇳 India &nbsp; • &nbsp; 💻 Python Developer
+🎓 BCA Student • 🇮🇳 India • 💻 Python Developer
 </p>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=Backend+Developer;Django+Developer;DRF+Specialist;Building+Scalable+APIs" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=Backend+Developer;Django+Developer;DRF+Specialist;Python+Developer;Building+Scalable+APIs" />
 </p>
 
 <p align="center">
@@ -27,19 +26,23 @@
 </a>
 </p>
 
----
-
-## 💫 About Me
-
-* 🔭 Building scalable backend applications
-* 🌱 Learning Docker & System Design
-* 💬 Ask me about Django, DRF, Python
-* ⚡ Passionate about REST APIs
-* 🎯 Goal: Backend Engineer
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=MAFAZ9416&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
+</p>
 
 ---
 
-## 💻 Developer Profile
+# 💫 About Me
+
+* 🔭 Building scalable backend applications.
+* 🌱 Currently learning Docker & System Design.
+* 💬 Ask me about Django, DRF and Python.
+* ⚡ Passionate about REST APIs.
+* 🎯 Goal: Backend Engineer.
+
+---
+
+# 💻 Developer Profile
 
 ```python
 class MohammedMafaz:
@@ -69,7 +72,7 @@ class MohammedMafaz:
 
 ---
 
-## ⚒ Tech Stack
+# ⚒ Tech Stack
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=python,django,postgres,mysql,git,github,docker,vscode,postman" />
@@ -77,7 +80,7 @@ class MohammedMafaz:
 
 ---
 
-## 🚀 Featured Projects
+# 🚀 Featured Projects
 
 ### 🛒 TechHub API
 
@@ -103,32 +106,65 @@ class MohammedMafaz:
 
 * Authentication System
 * CRUD Operations
-* Django Templates
 
 ---
 
-## 📊 GitHub Stats
+# 📊 GitHub Statistics
 
 <p align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=MAFAZ9416&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=MAFAZ9416&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MAFAZ9416&layout=compact&theme=tokyonight&hide_border=true"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MAFAZ9416&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
-## 🔥 GitHub Streak
+# 🔥 GitHub Streak
 
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=MAFAZ9416&theme=tokyonight&hide_border=true"/>
+<img src="https://streak-stats.demolab.com?user=MAFAZ9416&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
-## 📈 Contribution Graph
+# 📈 Contribution Graph
 
 <p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MAFAZ9416&theme=react-dark"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MAFAZ9416&bg_color=1a1b27&color=70a5fd&line=38bdae&point=ffffff&hide_border=true" />
+</p>
+
+---
+
+# 📋 Profile Summary
+
+<p align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MAFAZ9416&theme=tokyonight" />
+</p>
+
+---
+
+# 📚 Languages & Commits
+
+<p align="center">
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MAFAZ9416&theme=tokyonight" />
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MAFAZ9416&theme=tokyonight" />
+</p>
+
+---
+
+# ⏰ Productive Time
+
+<p align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MAFAZ9416&theme=tokyonight&utcOffset=5.5" />
+</p>
+
+---
+
+# 🏆 GitHub Trophies
+
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=MAFAZ9416&theme=tokyonight&no-frame=true&row=1&column=6" />
 </p>
 
 ---
