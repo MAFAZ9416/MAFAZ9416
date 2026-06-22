@@ -16,7 +16,7 @@ Backend Developer 🚀 | Django & DRF Specialist
 <h2 align="center">⚒ Tech Stack</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,django,postgres,mysql,git,github,vscode,docker" />
+  <img src="https://skillicons.dev/icons?i=python,django,drf,postgres,mysql,git,github,vscode,vercel,render,aitools" />
 </p>
 class MohammedMafaz:
 
