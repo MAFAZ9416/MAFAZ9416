@@ -1,39 +1,15 @@
-
-Your README should contain only the code itself.
-
----
-
-# Problem 3: LinkedIn & Portfolio
-
-GitHub sometimes ignores:
-
-```html
-target="_blank"
-```
-
-Remove it.
-
----
-
-# EXACT WORKING CODE
-
-Copy this directly into README.md.
-
-⚠️ Do NOT put triple backticks at the top or bottom.
-
-:::writing{variant="document" id="42851"}
 <div align="center">
-  <img src="https://raw.githubusercontent.com/MAFAZ9416/MAFAZ9416/main/profile-banner.png" />
+  <img src="https://raw.githubusercontent.com/MAFAZ9416/MAFAZ9416/main/profile-banner.png" width="100%" alt="Mohammed Mafaz Banner">
 </div>
 
 <h1 align="center">Hi 👋, I'm Mohammed Mafaz T.S.</h1>
 
 <h3 align="center">
-Backend Developer 🚀 | Django & DRF Specialist
+🚀 Backend Developer | Django & DRF Specialist
 </h3>
 
 <p align="center">
-🎓 BCA Student • 🇮🇳 India • 💻 Python Developer
+🎓 BCA Student &nbsp; • &nbsp; 🇮🇳 India &nbsp; • &nbsp; 💻 Python Developer
 </p>
 
 <p align="center">
@@ -49,6 +25,16 @@ Backend Developer 🚀 | Django & DRF Specialist
 <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white">
 </a>
 </p>
+
+---
+
+## 💫 About Me
+
+* 🔭 Building scalable backend applications
+* 🌱 Learning Docker & System Design
+* 💬 Ask me about Django, DRF, Python
+* ⚡ Passionate about REST APIs
+* 🎯 Goal: Backend Engineer
 
 ---
 
@@ -94,15 +80,29 @@ class MohammedMafaz:
 
 ### 🛒 TechHub API
 
-Django REST Framework • JWT • PostgreSQL
+* Django REST Framework
+* JWT Authentication
+* PostgreSQL
+* Product & Order APIs
 
 ### 🤖 AI Chat Backend
 
-Gemini API • Token Tracking • DRF
+* Gemini API Integration
+* Token Tracking
+* Chat History
+* REST APIs
 
 ### 🎓 Student Dashboard
 
-Authentication • Analytics • REST APIs
+* JWT Authentication
+* Role Management
+* Analytics Dashboard
+
+### 📝 Blog Platform
+
+* Authentication System
+* CRUD Operations
+* Django Templates
 
 ---
 
@@ -124,16 +124,14 @@ Authentication • Analytics • REST APIs
 
 ---
 
+## 📈 Contribution Graph
+
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MAFAZ9416&theme=react-dark"/>
+</p>
+
+---
+
 <h3 align="center">
 Code. Build. Deploy. Repeat. 🚀
 </h3>
-:::
-
-# VERY IMPORTANT
-
-Open your README editor and check the first line.
-
-If you see:
-
-````text
-```md
