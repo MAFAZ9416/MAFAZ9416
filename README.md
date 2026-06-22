@@ -1,6 +1,29 @@
-````md
+
+Your README should contain only the code itself.
+
+---
+
+# Problem 3: LinkedIn & Portfolio
+
+GitHub sometimes ignores:
+
+```html
+target="_blank"
+```
+
+Remove it.
+
+---
+
+# EXACT WORKING CODE
+
+Copy this directly into README.md.
+
+⚠️ Do NOT put triple backticks at the top or bottom.
+
+:::writing{variant="document" id="42851"}
 <div align="center">
-  <img src="https://raw.githubusercontent.com/MAFAZ9416/MAFAZ9416/main/profile-banner.png" width="100%">
+  <img src="https://raw.githubusercontent.com/MAFAZ9416/MAFAZ9416/main/profile-banner.png" />
 </div>
 
 <h1 align="center">Hi 👋, I'm Mohammed Mafaz T.S.</h1>
@@ -14,17 +37,17 @@ Backend Developer 🚀 | Django & DRF Specialist
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=Backend+Developer;Django+Developer;DRF+Specialist;Building+Scalable+APIs" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=Backend+Developer;Django+Developer;DRF+Specialist;Building+Scalable+APIs" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/mohammed-mafaz-t-s-778602376/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
+<a href="https://www.linkedin.com/in/mohammed-mafaz-t-s-778602376/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
 
-  <a href="https://mafaz-portfolio-gold.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white">
-  </a>
+<a href="https://mafaz-portfolio-gold.vercel.app/">
+<img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white">
+</a>
 </p>
 
 ---
@@ -55,14 +78,14 @@ class MohammedMafaz:
     goal = "Backend Engineer"
 
     motto = "Code. Build. Deploy. Repeat."
-````
+```
 
 ---
 
 ## ⚒ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,django,postgres,mysql,git,github,docker,vscode,postman" />
+<img src="https://skillicons.dev/icons?i=python,django,postgres,mysql,git,github,docker,vscode,postman" />
 </p>
 
 ---
@@ -86,9 +109,9 @@ Authentication • Analytics • REST APIs
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=MAFAZ9416&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=MAFAZ9416&show_icons=true&theme=tokyonight&hide_border=true"/>
 
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MAFAZ9416&layout=compact&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MAFAZ9416&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
@@ -96,7 +119,7 @@ Authentication • Analytics • REST APIs
 ## 🔥 GitHub Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=MAFAZ9416&theme=tokyonight&hide_border=true"/>
+<img src="https://streak-stats.demolab.com?user=MAFAZ9416&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
@@ -104,4 +127,13 @@ Authentication • Analytics • REST APIs
 <h3 align="center">
 Code. Build. Deploy. Repeat. 🚀
 </h3>
-```
+:::
+
+# VERY IMPORTANT
+
+Open your README editor and check the first line.
+
+If you see:
+
+````text
+```md
