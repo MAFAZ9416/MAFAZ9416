@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="500" height="220" viewBox="0 0 500 220">
-  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#0b1d36"/><stop offset="1" stop-color="#102b4e"/></linearGradient></defs>
-  <rect width="100%" height="100%" rx="16" fill="url(#g)" stroke="#258de5" stroke-width="2"/>
-  <text x="28" y="55" fill="#8bd5ff" font-family="Arial,sans-serif" font-size="22" font-weight="700">Repositories by Language</text>
-  <path d="M28 75 H472" stroke="#24527d"/>
-  <text x="28" y="118" fill="#ffffff" font-family="Arial,sans-serif" font-size="16">Your repository language breakdown will appear here.</text>
-  <text x="28" y="153" fill="#b8cbe0" font-family="Arial,sans-serif" font-size="13">Initial preview — run the GitHub Actions workflow</text>
-  <text x="28" y="178" fill="#b8cbe0" font-family="Arial,sans-serif" font-size="13">to replace this card with your real GitHub data.</text>
-</svg>
