@@ -1,166 +1,195 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/MAFAZ9416/MAFAZ9416/main/profile-banner.png" width="100%" alt="Mohammed Mafaz Banner">
+
+  <img src="https://raw.githubusercontent.com/MAFAZ9416/MAFAZ9416/main/profile-banner.png" width="100%" alt="Mohammed Mafaz Backend Developer Banner" />
+
+  <br/>
+
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=25&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Hi%2C+I'm+Mohammed+Mafaz+%F0%9F%91%8B;Python+Backend+Developer;Django+%26+DRF+Developer;Building+Scalable+REST+APIs;Code.+Build.+Deploy.+Repeat." alt="Typing SVG" />
+
+  <h3>🚀 Backend Developer | Python | Django | Django REST Framework</h3>
+  <p>🎓 Final-Year BCA Student &nbsp;•&nbsp; 🇮🇳 India &nbsp;•&nbsp; 💻 Python Developer</p>
+
+  <a href="https://github.com/MAFAZ9416"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://www.linkedin.com/in/mohammed-mafaz-t-s-778602376/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://mafaz-portfolio-gold.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-38BDF8?style=for-the-badge&logo=vercel&logoColor=black" alt="Portfolio"/></a>
+
+  <br/><br/>
+  <img src="https://komarev.com/ghpvc/?username=MAFAZ9416&style=for-the-badge&color=0e75b6&label=PROFILE+VIEWS" alt="Profile views"/>
 </div>
 
-<h1 align="center">Hi 👋, I'm Mohammed Mafaz T.S.</h1>
+---
 
-<h3 align="center">
-🚀 Backend Developer | Django & DRF Specialist
-</h3>
+## 👨‍💻 About Me
 
-<p align="center">
-🎓 BCA Student • 🇮🇳 India • 💻 Python Developer
-</p>
+Hey! I'm **Mohammed Mafaz T.S.**, a final-year BCA student passionate about backend development and building useful software applications.
 
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=Backend+Developer;Django+Developer;DRF+Specialist;Python+Developer;Building+Scalable+APIs" />
-</p>
+I mainly work with Python, Django and Django REST Framework. I enjoy designing APIs, managing databases and developing backend systems.
 
-<p align="center">
-<a href="https://www.linkedin.com/in/mohammed-mafaz-t-s-778602376/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
-
-<a href="https://mafaz-portfolio-gold.vercel.app/">
-<img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white">
-</a>
-</p>
-
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=MAFAZ9416&label=Profile+Views&color=0e75b6&style=for-the-badge" />
-</p>
+- 🔭 Building backend applications using Django and DRF.
+- 🌱 Exploring Docker, System Design and backend architecture.
+- 💡 Interested in REST APIs, authentication and database design.
+- 🛠️ Working with PostgreSQL, MySQL, Git and GitHub.
+- 🎯 Goal: Become a skilled Backend Engineer.
+- ⚡ Motto: Build. Learn. Improve. Repeat.
 
 ---
 
-# 💫 About Me
-
-* 🔭 Building scalable backend applications
-* 🌱 Currently learning Docker & System Design
-* 💬 Ask me about Django, DRF and Python
-* ⚡ Passionate about REST APIs
-* 🎯 Goal: Backend Engineer
-
----
-
-# 💻 Developer Profile
+## 🧑‍💻 Developer Snapshot
 
 ```python
 class MohammedMafaz:
-
+    name = "Mohammed Mafaz T.S."
     role = "Backend Developer"
+    education = "BCA"
 
-    specialization = "Django & DRF"
+    languages = ["Python", "SQL"]
+    frameworks = ["Django", "Django REST Framework"]
+    databases = ["PostgreSQL", "MySQL", "SQLite"]
+    tools = ["Git", "GitHub", "Postman", "Docker"]
 
-    languages = ["Python"]
-
-    frameworks = [
-        "Django",
-        "Django REST Framework"
+    interests = [
+        "Backend Development",
+        "REST API Development",
+        "Database Design",
+        "System Design",
     ]
 
-    databases = [
-        "PostgreSQL",
-        "MySQL"
-    ]
-
-    current_focus = "Building scalable APIs"
-
+    currently_learning = ["Docker", "System Design"]
     goal = "Backend Engineer"
-
     motto = "Code. Build. Deploy. Repeat."
 ```
 
 ---
 
-# ⚒ Tech Stack
+## ⚒️ Tech Stack & Tools
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=python,django,postgres,mysql,git,github,docker,vscode,postman" />
-</p>
+<div align="center">
+
+**Programming Language**
+
+<img src="https://skillicons.dev/icons?i=python" alt="Python"/>
+
+**Backend Development**
+
+<img src="https://skillicons.dev/icons?i=django,fastapi" alt="Django and FastAPI"/>
+
+**Databases**
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb" alt="Databases"/>
+
+**Tools & Development Environment**
+
+<img src="https://skillicons.dev/icons?i=git,github,docker,postman,vscode,linux" alt="Developer tools"/>
+
+**Data Analysis**
+
+<img src="https://skillicons.dev/icons?i=pandas,numpy" alt="Data analysis"/>
+
+</div>
 
 ---
 
-# 🚀 Featured Projects
+## 🚀 Featured Projects
 
-### 🛒 TechHub API
-
-* Django REST Framework
-* JWT Authentication
-* PostgreSQL
-* Product & Order APIs
+### 🛒 TechHub — E-Commerce API
+A backend API for an e-commerce platform.
+- Django REST Framework
+- JWT Authentication
+- PostgreSQL
+- Product and order management
 
 ### 🤖 AI Chat Backend
+An AI-powered conversational backend.
+- Gemini API integration
+- Chat history management
+- Token tracking
+- REST API development
 
-* Gemini API Integration
-* Token Tracking
-* Chat History
-* REST APIs
-
-### 🎓 Student Dashboard
-
-* JWT Authentication
-* Role Management
-* Analytics Dashboard
+### 📊 Student Dashboard
+A dashboard application for managing student information and activities.
+- Django REST Framework
+- JWT Authentication
+- Role management
+- Analytics dashboard
 
 ### 📝 Blog Platform
-
-* Authentication System
-* CRUD Operations
-
----
-
-# 📊 GitHub Statistics
-
-<p align="center">
-<img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=MAFAZ9416&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-
-<img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=MAFAZ9416&layout=compact&theme=tokyonight"/>
-</p>
+A backend application for creating and managing blog posts.
+- Django
+- Authentication system
+- CRUD operations
+- Database management
 
 ---
 
-# 🔥 GitHub Streak
+## 📊 GitHub Analytics
 
-<p align="center">
-<img src="https://streak-stats.demolab.com?user=MAFAZ9416&theme=tokyonight&hide_border=true"/>
-</p>
+<div align="center">
 
----
+  <img width="49%" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub statistics"/>
+  <img width="49%" src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Repository languages"/>
 
-# 📈 Contribution Graph
+  <br/><br/>
 
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MAFAZ9416&bg_color=1a1b27&color=70a5fd&line=38bdae&point=ffffff&hide_border=true"/>
-</p>
+  <img width="49%" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Most used commit languages"/>
+  <img width="49%" src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Productive time"/>
 
----
-
-# 📋 Profile Summary
-
-<p align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MAFAZ9416&theme=tokyonight"/>
-</p>
+</div>
 
 ---
 
-# 📚 Languages & Commit Statistics
+## 📈 Contribution Overview
 
-<p align="center">
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MAFAZ9416&theme=tokyonight"/>
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MAFAZ9416&theme=tokyonight"/>
-</p>
+<div align="center">
+  <img width="100%" src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="GitHub contribution overview"/>
+</div>
 
 ---
 
-# ⏰ Productive Time
+## 🐍 Contribution Snake
 
-<p align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MAFAZ9416&theme=tokyonight&utcOffset=5.5"/>
-</p>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MAFAZ9416/MAFAZ9416/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MAFAZ9416/MAFAZ9416/output/github-contribution-grid-snake.svg"/>
+    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/MAFAZ9416/MAFAZ9416/output/github-contribution-grid-snake.svg" width="100%"/>
+  </picture>
+</div>
 
 ---
 
-<h3 align="center">
-Code. Build. Deploy. Repeat. 🚀
-</h3>
+## 🏆 GitHub Achievements
+
+Explore my actual GitHub activity, repositories and achievements:
+
+<div align="center">
+  <a href="https://github.com/MAFAZ9416?tab=achievements">
+    <img src="https://img.shields.io/badge/View-GitHub_Achievements-8957e5?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub achievements"/>
+  </a>
+</div>
+
+---
+
+## 📚 Currently Learning
+
+| Technology | Focus |
+|:---|:---|
+| Django REST Framework | Advanced API development |
+| Docker | Containerization |
+| PostgreSQL | Database optimization |
+| System Design | Scalable backend architecture |
+| Python | Problem solving and DSA |
+
+---
+
+## 🤝 Let's Connect
+
+<div align="center">
+  <a href="https://github.com/MAFAZ9416"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+  <a href="https://www.linkedin.com/in/mohammed-mafaz-t-s-778602376/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"/></a>
+  <a href="https://mafaz-portfolio-gold.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-38BDF8?style=for-the-badge&logo=vercel" alt="Portfolio"/></a>
+
+  <br/><br/>
+  **"Great software is built one problem at a time."**
+  <br/><br/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:0284C7&height=120&section=footer" width="100%" alt="Footer"/>
+</div>
