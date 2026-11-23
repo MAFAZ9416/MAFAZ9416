@@ -149,17 +149,15 @@ A backend application for creating and managing blog posts.
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MAFAZ9416/MAFAZ9416/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MAFAZ9416/MAFAZ9416/output/github-contribution-grid-snake.svg"/>
-    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/MAFAZ9416/MAFAZ9416/output/github-contribution-grid-snake.svg" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg"/>
+    <img alt="GitHub contribution snake animation" src="./assets/github-contribution-grid-snake.svg" width="100%"/>
   </picture>
 </div>
 
 ---
 
 ## 🏆 GitHub Achievements
-
-Explore my actual GitHub activity, repositories and achievements:
 
 <div align="center">
   <a href="https://github.com/MAFAZ9416?tab=achievements">

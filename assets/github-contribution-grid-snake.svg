@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="170" viewBox="0 0 900 170">
+<rect width="900" height="170" rx="16" fill="#0d1117" stroke="#258de5"/>
+<text x="32" y="52" fill="#8bd5ff" font-family="Arial,sans-serif" font-size="24" font-weight="700">Contribution Snake</text>
+<text x="32" y="88" fill="#ffffff" font-family="Arial,sans-serif" font-size="16">Preview asset included so the README image path exists.</text>
+<text x="32" y="118" fill="#b8cbe0" font-family="Arial,sans-serif" font-size="14">Run “Generate Contribution Snake” in GitHub Actions to replace this with your real contribution animation.</text>
+</svg>

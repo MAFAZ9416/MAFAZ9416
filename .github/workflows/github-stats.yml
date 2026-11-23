@@ -1,4 +1,4 @@
-name: Update GitHub Profile Analytics
+name: Update GitHub Profile Statistics
 
 on:
   schedule:
@@ -12,6 +12,9 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
       - name: Generate profile summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
