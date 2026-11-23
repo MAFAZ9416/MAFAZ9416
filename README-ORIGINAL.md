@@ -1,3 +1,4 @@
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/MAFAZ9416/MAFAZ9416/main/profile-banner.png" width="100%" alt="Mohammed Mafaz Banner">
 </div>
@@ -112,9 +113,9 @@ class MohammedMafaz:
 # 📊 GitHub Statistics
 
 <p align="center">
-<img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=MAFAZ9416&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=MAFAZ9416&show_icons=true&theme=tokyonight&include_all_commits=true"/>
 
-<img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=MAFAZ9416&layout=compact&theme=tokyonight"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MAFAZ9416&layout=compact&theme=tokyonight"/>
 </p>
 
 ---
@@ -122,8 +123,13 @@ class MohammedMafaz:
 # 🔥 GitHub Streak
 
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=MAFAZ9416&theme=tokyonight&hide_border=true"/>
+  <img
+    src="./assets/github-streak.svg"
+    alt="Mohammed Mafaz GitHub Streak"
+    width="70%"
+  />
 </p>
+
 
 ---
 
