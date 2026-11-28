@@ -1,0 +1,70 @@
+<svg width="900" height="90" viewBox="0 0 900 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgBase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#161622"/>
+      <stop offset="100%" style="stop-color:#111117"/>
+    </linearGradient>
+    <linearGradient id="portfolioAccent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9D4EDD"/>
+      <stop offset="100%" style="stop-color:#C77DFF"/>
+    </linearGradient>
+    <linearGradient id="linkedinAccent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A66C2"/>
+      <stop offset="100%" style="stop-color:#1E88E5"/>
+    </linearGradient>
+    <linearGradient id="instaAccent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E1306C"/>
+      <stop offset="100%" style="stop-color:#F77737"/>
+    </linearGradient>
+    <style>
+      @keyframes cardHover { 0%,100%{opacity:0.85} 50%{opacity:1} }
+      .card1{animation:cardHover 3s ease-in-out infinite}
+      .card2{animation:cardHover 3s ease-in-out infinite 1s}
+      .card3{animation:cardHover 3s ease-in-out infinite 2s}
+    </style>
+  </defs>
+
+  <!-- Portfolio Card -->
+  <g class="card1">
+    <rect x="0" y="0" width="285" height="82" rx="12" fill="url(#bgBase)" stroke="#1E1E2E" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="82" rx="2" fill="url(#portfolioAccent)"/>
+    <!-- Globe icon -->
+    <circle cx="34" cy="41" r="14" fill="none" stroke="#9D4EDD" stroke-width="1.5" opacity="0.9"/>
+    <ellipse cx="34" cy="41" rx="6" ry="14" fill="none" stroke="#9D4EDD" stroke-width="1" opacity="0.6"/>
+    <line x1="20" y1="41" x2="48" y2="41" stroke="#9D4EDD" stroke-width="1" opacity="0.6"/>
+    <line x1="22" y1="33" x2="46" y2="33" stroke="#9D4EDD" stroke-width="0.8" opacity="0.4"/>
+    <line x1="22" y1="49" x2="46" y2="49" stroke="#9D4EDD" stroke-width="0.8" opacity="0.4"/>
+    <!-- Text -->
+    <text x="58" y="35" font-family="'Arial', sans-serif" font-size="11" font-weight="bold" fill="#E8E8F0" letter-spacing="1">PORTFOLIO</text>
+    <text x="58" y="52" font-family="'Courier New', monospace" font-size="9" fill="#9D4EDD">mafaz-portfolio-gold.vercel.app</text>
+    <text x="58" y="67" font-family="'Arial', sans-serif" font-size="8" fill="#555570">Personal Developer Portfolio</text>
+  </g>
+
+  <!-- LinkedIn Card -->
+  <g class="card2">
+    <rect x="307" y="0" width="285" height="82" rx="12" fill="url(#bgBase)" stroke="#1E1E2E" stroke-width="1"/>
+    <rect x="307" y="0" width="4" height="82" rx="2" fill="url(#linkedinAccent)"/>
+    <!-- LinkedIn 'in' icon -->
+    <rect x="321" y="27" width="28" height="28" rx="5" fill="#0A66C2" opacity="0.9"/>
+    <text x="335" y="47" font-family="'Arial', sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">in</text>
+    <!-- Text -->
+    <text x="365" y="35" font-family="'Arial', sans-serif" font-size="11" font-weight="bold" fill="#E8E8F0" letter-spacing="1">LINKEDIN</text>
+    <text x="365" y="52" font-family="'Courier New', monospace" font-size="9" fill="#0A66C2">/in/mohammed-mafaz-t-s</text>
+    <text x="365" y="67" font-family="'Arial', sans-serif" font-size="8" fill="#555570">Professional Network</text>
+  </g>
+
+  <!-- Instagram Card -->
+  <g class="card3">
+    <rect x="615" y="0" width="285" height="82" rx="12" fill="url(#bgBase)" stroke="#1E1E2E" stroke-width="1"/>
+    <rect x="615" y="0" width="4" height="82" rx="2" fill="url(#instaAccent)"/>
+    <!-- Instagram camera icon -->
+    <rect x="629" y="27" width="28" height="28" rx="7" fill="none" stroke="#E1306C" stroke-width="1.8"/>
+    <circle cx="643" cy="41" r="7" fill="none" stroke="#E1306C" stroke-width="1.5"/>
+    <circle cx="643" cy="41" r="3.5" fill="#E1306C" opacity="0.8"/>
+    <circle cx="654" cy="30" r="2" fill="#E1306C"/>
+    <!-- Text -->
+    <text x="673" y="35" font-family="'Arial', sans-serif" font-size="11" font-weight="bold" fill="#E8E8F0" letter-spacing="1">INSTAGRAM</text>
+    <text x="673" y="52" font-family="'Courier New', monospace" font-size="9" fill="#E1306C">@_mafaz__7</text>
+    <text x="673" y="67" font-family="'Arial', sans-serif" font-size="8" fill="#555570">Follow my journey</text>
+  </g>
+</svg>

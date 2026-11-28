@@ -1,0 +1,232 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D0D0F;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0F0F18;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D0D0F;stop-opacity:1" />
+    </linearGradient>
+    <!-- Purple glow -->
+    <radialGradient id="purpleGlow" cx="30%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#9D4EDD;stop-opacity:0.18" />
+      <stop offset="100%" style="stop-color:#9D4EDD;stop-opacity:0" />
+    </radialGradient>
+    <!-- Cyan glow -->
+    <radialGradient id="cyanGlow" cx="75%" cy="40%" r="45%">
+      <stop offset="0%" style="stop-color:#00F5FF;stop-opacity:0.12" />
+      <stop offset="100%" style="stop-color:#00F5FF;stop-opacity:0" />
+    </radialGradient>
+    <!-- Neon divider -->
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9D4EDD;stop-opacity:0" />
+      <stop offset="30%" style="stop-color:#9D4EDD;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#00F5FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00F5FF;stop-opacity:0" />
+    </linearGradient>
+    <!-- Text shimmer -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E8E8F0" />
+      <stop offset="40%" style="stop-color:#FFFFFF" />
+      <stop offset="70%" style="stop-color:#C77DFF" />
+      <stop offset="100%" style="stop-color:#E8E8F0" />
+    </linearGradient>
+    <!-- Filter: purple glow blur -->
+    <filter id="purpleBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <!-- Filter: cyan glow -->
+    <filter id="cyanBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <!-- Soft glow for elements -->
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes floatPulse {
+        0%, 100% { transform: translateY(0px); opacity: 0.7; }
+        50% { transform: translateY(-5px); opacity: 1; }
+      }
+      @keyframes shimmer {
+        0%, 100% { opacity: 0.85; }
+        50% { opacity: 1; }
+      }
+      @keyframes fadeSlideIn {
+        0% { opacity: 0; transform: translateX(-10px); }
+        100% { opacity: 1; transform: translateX(0); }
+      }
+      @keyframes pillFade {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      @keyframes gridPulse {
+        0%, 100% { opacity: 0.07; }
+        50% { opacity: 0.14; }
+      }
+      @keyframes dotBlink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+      }
+      @keyframes borderGlow {
+        0%, 100% { opacity: 0.5; }
+        50% { opacity: 1; }
+      }
+      .hero-name {
+        animation: shimmer 3s ease-in-out infinite;
+      }
+      .float-icon {
+        animation: floatPulse 3s ease-in-out infinite;
+      }
+      .float-icon-2 {
+        animation: floatPulse 3.5s ease-in-out infinite 0.5s;
+      }
+      .float-icon-3 {
+        animation: floatPulse 2.8s ease-in-out infinite 1s;
+      }
+      .grid-bg {
+        animation: gridPulse 4s ease-in-out infinite;
+      }
+      .fade-1 { animation: fadeSlideIn 0.8s ease-out 0.1s both; }
+      .fade-2 { animation: fadeSlideIn 0.8s ease-out 0.3s both; }
+      .fade-3 { animation: fadeSlideIn 0.8s ease-out 0.5s both; }
+      .pill-1 { animation: pillFade 0.6s ease-out 0.7s both; }
+      .pill-2 { animation: pillFade 0.6s ease-out 0.9s both; }
+      .pill-3 { animation: pillFade 0.6s ease-out 1.1s both; }
+      .pill-4 { animation: pillFade 0.6s ease-out 1.3s both; }
+      .status-dot { animation: dotBlink 2s ease-in-out infinite; }
+      .border-glow { animation: borderGlow 2.5s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="300" fill="url(#bgGrad)"/>
+  <rect width="900" height="300" fill="url(#purpleGlow)"/>
+  <rect width="900" height="300" fill="url(#cyanGlow)"/>
+
+  <!-- Perspective grid lines (horizontal) -->
+  <g class="grid-bg" stroke="#9D4EDD" stroke-width="0.4" opacity="0.08">
+    <line x1="0" y1="60" x2="900" y2="60"/>
+    <line x1="0" y1="100" x2="900" y2="100"/>
+    <line x1="0" y1="140" x2="900" y2="140"/>
+    <line x1="0" y1="180" x2="900" y2="180"/>
+    <line x1="0" y1="220" x2="900" y2="220"/>
+    <line x1="0" y1="260" x2="900" y2="260"/>
+  </g>
+  <!-- Vertical grid -->
+  <g class="grid-bg" stroke="#00F5FF" stroke-width="0.4" opacity="0.06">
+    <line x1="150" y1="0" x2="150" y2="300"/>
+    <line x1="300" y1="0" x2="300" y2="300"/>
+    <line x1="450" y1="0" x2="450" y2="300"/>
+    <line x1="600" y1="0" x2="600" y2="300"/>
+    <line x1="750" y1="0" x2="750" y2="300"/>
+  </g>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="4" height="300" fill="url(#dividerGrad)"/>
+
+  <!-- Right decorative panel -->
+  <rect x="620" y="30" width="250" height="240" rx="10" fill="#161622" fill-opacity="0.6" stroke="#1E1E2E" stroke-width="1"/>
+  <rect x="620" y="30" width="250" height="240" rx="10" fill="none" stroke="#9D4EDD" stroke-width="0.5" class="border-glow"/>
+
+  <!-- Panel header bar -->
+  <rect x="620" y="30" width="250" height="32" rx="10" fill="#1A1A2E" fill-opacity="0.9"/>
+  <rect x="620" y="50" width="250" height="12" fill="#1A1A2E" fill-opacity="0.9"/>
+  <!-- Panel dots -->
+  <circle cx="638" cy="46" r="4" fill="#FF5F57"/>
+  <circle cx="652" cy="46" r="4" fill="#FEBC2E"/>
+  <circle cx="666" cy="46" r="4" fill="#28C840"/>
+  <!-- Panel title -->
+  <text x="680" y="51" font-family="'Courier New', monospace" font-size="9" fill="#8888AA">backend.py</text>
+
+  <!-- Panel code lines -->
+  <text x="634" y="82" font-family="'Courier New', monospace" font-size="9" fill="#9D4EDD" class="float-icon">class</text>
+  <text x="662" y="82" font-family="'Courier New', monospace" font-size="9" fill="#00F5FF">BackendDeveloper</text>
+  <text x="762" y="82" font-family="'Courier New', monospace" font-size="9" fill="#E8E8F0">:</text>
+  <text x="634" y="98" font-family="'Courier New', monospace" font-size="9" fill="#8888AA">  role</text>
+  <text x="668" y="98" font-family="'Courier New', monospace" font-size="9" fill="#E8E8F0">= </text>
+  <text x="678" y="98" font-family="'Courier New', monospace" font-size="9" fill="#B5FF4D">"MAFAZ"</text>
+  <text x="634" y="114" font-family="'Courier New', monospace" font-size="9" fill="#8888AA">  stack</text>
+  <text x="672" y="114" font-family="'Courier New', monospace" font-size="9" fill="#E8E8F0">= [</text>
+  <text x="634" y="130" font-family="'Courier New', monospace" font-size="9" fill="#B5FF4D">    "Python"</text>
+  <text x="688" y="130" font-family="'Courier New', monospace" font-size="9" fill="#8888AA">,</text>
+  <text x="634" y="146" font-family="'Courier New', monospace" font-size="9" fill="#B5FF4D">    "Django"</text>
+  <text x="688" y="146" font-family="'Courier New', monospace" font-size="9" fill="#8888AA">,</text>
+  <text x="634" y="162" font-family="'Courier New', monospace" font-size="9" fill="#B5FF4D">    "DRF"</text>
+  <text x="666" y="162" font-family="'Courier New', monospace" font-size="9" fill="#8888AA">,</text>
+  <text x="634" y="178" font-family="'Courier New', monospace" font-size="9" fill="#B5FF4D">    "PostgreSQL"</text>
+  <text x="634" y="194" font-family="'Courier New', monospace" font-size="9" fill="#E8E8F0">  ]</text>
+  <text x="634" y="210" font-family="'Courier New', monospace" font-size="9" fill="#8888AA">  ai_tools</text>
+  <text x="688" y="210" font-family="'Courier New', monospace" font-size="9" fill="#E8E8F0">= </text>
+  <text x="698" y="210" font-family="'Courier New', monospace" font-size="9" fill="#9D4EDD">True</text>
+  <text x="634" y="230" font-family="'Courier New', monospace" font-size="9" fill="#8888AA">  status</text>
+  <text x="674" y="230" font-family="'Courier New', monospace" font-size="9" fill="#E8E8F0">= </text>
+  <text x="684" y="230" font-family="'Courier New', monospace" font-size="9" fill="#B5FF4D">"building"</text>
+
+  <!-- Status indicator -->
+  <circle cx="634" cy="254" r="4" fill="#28C840" class="status-dot"/>
+  <text x="644" y="258" font-family="'Courier New', monospace" font-size="9" fill="#8888AA">ACTIVE · OPEN TO WORK</text>
+
+  <!-- Main content area: left side -->
+  <!-- Python icon abstract -->
+  <g class="float-icon" transform="translate(38, 32)">
+    <!-- Python snake body abstract -->
+    <ellipse cx="22" cy="18" rx="18" ry="10" fill="none" stroke="#9D4EDD" stroke-width="1.5" opacity="0.9"/>
+    <ellipse cx="22" cy="28" rx="18" ry="10" fill="none" stroke="#00F5FF" stroke-width="1.5" opacity="0.9"/>
+    <circle cx="30" cy="13" r="4" fill="#9D4EDD" opacity="0.9"/>
+    <circle cx="14" cy="33" r="4" fill="#00F5FF" opacity="0.9"/>
+    <!-- Glow dots -->
+    <circle cx="30" cy="13" r="7" fill="#9D4EDD" opacity="0.2"/>
+    <circle cx="14" cy="33" r="7" fill="#00F5FF" opacity="0.2"/>
+  </g>
+
+  <!-- Name -->
+  <text x="38" y="105" font-family="'Arial', 'Helvetica', sans-serif" font-size="38" font-weight="900" fill="url(#nameGrad)" class="hero-name fade-1" letter-spacing="2">MOHAMMED MAFAZ</text>
+
+  <!-- Primary title -->
+  <text x="38" y="140" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#9D4EDD" class="fade-2" letter-spacing="3">▸ BACKEND DEVELOPER</text>
+
+  <!-- Secondary title -->
+  <text x="38" y="163" font-family="'Courier New', monospace" font-size="10" fill="#8888AA" class="fade-3" letter-spacing="1">AI-ASSISTED FULL-STACK BUILDER  ·  API DEVELOPER</text>
+
+  <!-- Tagline -->
+  <text x="38" y="190" font-family="'Arial', sans-serif" font-size="12" fill="#555570" font-style="italic" class="fade-3">"Building the logic behind the digital world."</text>
+
+  <!-- Neon divider line -->
+  <rect x="38" y="204" width="400" height="1" fill="url(#dividerGrad)"/>
+
+  <!-- Tech pills -->
+  <!-- Python pill -->
+  <rect x="38" y="215" width="72" height="22" rx="11" fill="#1A1A2E" stroke="#9D4EDD" stroke-width="0.8" class="pill-1"/>
+  <text x="74" y="231" font-family="'Courier New', monospace" font-size="9" fill="#9D4EDD" text-anchor="middle" class="pill-1">{ } Python</text>
+
+  <!-- Django pill -->
+  <rect x="118" y="215" width="66" height="22" rx="11" fill="#1A1A2E" stroke="#00F5FF" stroke-width="0.8" class="pill-2"/>
+  <text x="151" y="231" font-family="'Courier New', monospace" font-size="9" fill="#00F5FF" text-anchor="middle" class="pill-2">⚡ Django</text>
+
+  <!-- REST API pill -->
+  <rect x="192" y="215" width="78" height="22" rx="11" fill="#1A1A2E" stroke="#B5FF4D" stroke-width="0.8" class="pill-3"/>
+  <text x="231" y="231" font-family="'Courier New', monospace" font-size="9" fill="#B5FF4D" text-anchor="middle" class="pill-3">◈ REST APIs</text>
+
+  <!-- AI Builder pill -->
+  <rect x="278" y="215" width="80" height="22" rx="11" fill="#1A1A2E" stroke="#C77DFF" stroke-width="0.8" class="pill-4"/>
+  <text x="318" y="231" font-family="'Courier New', monospace" font-size="9" fill="#C77DFF" text-anchor="middle" class="pill-4">✦ AI Builder</text>
+
+  <!-- Bottom floating elements -->
+  <g class="float-icon-2" transform="translate(38, 252)">
+    <rect width="10" height="10" rx="2" fill="#9D4EDD" opacity="0.5"/>
+  </g>
+  <g class="float-icon-3" transform="translate(56, 258)">
+    <rect width="6" height="6" rx="1" fill="#00F5FF" opacity="0.4"/>
+  </g>
+  <g class="float-icon-2" transform="translate(70, 254)">
+    <circle r="4" cx="4" cy="4" fill="#B5FF4D" opacity="0.35"/>
+  </g>
+
+  <text x="88" y="265" font-family="'Courier New', monospace" font-size="9" fill="#555570">India  ·  Open to Opportunities</text>
+
+  <!-- Bottom neon accent bar -->
+  <rect x="0" y="297" width="900" height="3" fill="url(#dividerGrad)"/>
+</svg>

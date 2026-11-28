@@ -1,0 +1,81 @@
+<svg width="900" height="140" viewBox="0 0 900 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#161622"/>
+      <stop offset="100%" style="stop-color:#111117"/>
+    </linearGradient>
+    <linearGradient id="purpleDiv" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9D4EDD;stop-opacity:0"/>
+      <stop offset="30%" style="stop-color:#9D4EDD;stop-opacity:1"/>
+      <stop offset="70%" style="stop-color:#00F5FF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00F5FF;stop-opacity:0"/>
+    </linearGradient>
+    <radialGradient id="purpleGlow" cx="20%" cy="50%" r="40%">
+      <stop offset="0%" style="stop-color:#9D4EDD;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#9D4EDD;stop-opacity:0"/>
+    </radialGradient>
+    <style>
+      @keyframes workflowPulse { 0%,100%{opacity:0.6} 50%{opacity:1} }
+      .arrow1{animation:workflowPulse 2s ease-in-out infinite}
+      .arrow2{animation:workflowPulse 2s ease-in-out infinite 0.4s}
+      .arrow3{animation:workflowPulse 2s ease-in-out infinite 0.8s}
+      .arrow4{animation:workflowPulse 2s ease-in-out infinite 1.2s}
+    </style>
+  </defs>
+
+  <!-- Card background -->
+  <rect width="900" height="140" rx="14" fill="url(#cardBg)" stroke="#1E1E2E" stroke-width="1"/>
+  <rect width="900" height="140" rx="14" fill="url(#purpleGlow)"/>
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="4" height="140" rx="2" fill="#9D4EDD"/>
+
+  <!-- Top label -->
+  <text x="22" y="28" font-family="'Courier New', monospace" font-size="10" fill="#9D4EDD" letter-spacing="2">AI-ASSISTED DEVELOPMENT WORKFLOW</text>
+  <rect x="22" y="34" width="300" height="1" fill="url(#purpleDiv)" opacity="0.5"/>
+
+  <!-- Workflow pipeline -->
+  <!-- Step 1: Backend -->
+  <rect x="22" y="50" width="130" height="52" rx="8" fill="#1A1A2E" stroke="#9D4EDD" stroke-width="1"/>
+  <text x="87" y="72" font-family="'Arial', sans-serif" font-size="9" font-weight="bold" fill="#9D4EDD" text-anchor="middle" letter-spacing="1">BACKEND</text>
+  <text x="87" y="85" font-family="'Courier New', monospace" font-size="8" fill="#8888AA" text-anchor="middle">Python · Django</text>
+  <text x="87" y="97" font-family="'Courier New', monospace" font-size="8" fill="#8888AA" text-anchor="middle">DRF · APIs</text>
+
+  <!-- Arrow 1 -->
+  <text x="162" y="80" font-family="monospace" font-size="16" fill="#00F5FF" text-anchor="middle" class="arrow1">→</text>
+
+  <!-- Step 2: APIs -->
+  <rect x="175" y="50" width="130" height="52" rx="8" fill="#1A1A2E" stroke="#00F5FF" stroke-width="1"/>
+  <text x="240" y="72" font-family="'Arial', sans-serif" font-size="9" font-weight="bold" fill="#00F5FF" text-anchor="middle" letter-spacing="1">API LAYER</text>
+  <text x="240" y="85" font-family="'Courier New', monospace" font-size="8" fill="#8888AA" text-anchor="middle">REST Endpoints</text>
+  <text x="240" y="97" font-family="'Courier New', monospace" font-size="8" fill="#8888AA" text-anchor="middle">Auth · Database</text>
+
+  <!-- Arrow 2 -->
+  <text x="315" y="80" font-family="monospace" font-size="16" fill="#00F5FF" text-anchor="middle" class="arrow2">→</text>
+
+  <!-- Step 3: AI Frontend -->
+  <rect x="328" y="50" width="130" height="52" rx="8" fill="#1A1A2E" stroke="#C77DFF" stroke-width="1"/>
+  <text x="393" y="72" font-family="'Arial', sans-serif" font-size="9" font-weight="bold" fill="#C77DFF" text-anchor="middle" letter-spacing="1">AI-FRONTEND</text>
+  <text x="393" y="85" font-family="'Courier New', monospace" font-size="8" fill="#8888AA" text-anchor="middle">React · HTML/CSS</text>
+  <text x="393" y="97" font-family="'Courier New', monospace" font-size="8" fill="#8888AA" text-anchor="middle">AI-Accelerated</text>
+
+  <!-- Arrow 3 -->
+  <text x="468" y="80" font-family="monospace" font-size="16" fill="#00F5FF" text-anchor="middle" class="arrow3">→</text>
+
+  <!-- Step 4: Integration -->
+  <rect x="481" y="50" width="130" height="52" rx="8" fill="#1A1A2E" stroke="#B5FF4D" stroke-width="1"/>
+  <text x="546" y="72" font-family="'Arial', sans-serif" font-size="9" font-weight="bold" fill="#B5FF4D" text-anchor="middle" letter-spacing="1">AI INTEGRATION</text>
+  <text x="546" y="85" font-family="'Courier New', monospace" font-size="8" fill="#8888AA" text-anchor="middle">ChatGPT · Gemini</text>
+  <text x="546" y="97" font-family="'Courier New', monospace" font-size="8" fill="#8888AA" text-anchor="middle">Claude · APIs</text>
+
+  <!-- Arrow 4 -->
+  <text x="621" y="80" font-family="monospace" font-size="16" fill="#00F5FF" text-anchor="middle" class="arrow4">→</text>
+
+  <!-- Step 5: Deploy -->
+  <rect x="634" y="50" width="248" height="52" rx="8" fill="#1A1A2E" stroke="#00F5FF" stroke-width="1.5"/>
+  <text x="758" y="72" font-family="'Arial', sans-serif" font-size="9" font-weight="bold" fill="#00F5FF" text-anchor="middle" letter-spacing="1">COMPLETE APPLICATION</text>
+  <text x="758" y="85" font-family="'Courier New', monospace" font-size="8" fill="#8888AA" text-anchor="middle">Full-Stack · Docker · Production</text>
+  <text x="758" y="97" font-family="'Courier New', monospace" font-size="8" fill="#B5FF4D" text-anchor="middle">▸ Deployed &amp; Maintained</text>
+
+  <!-- Bottom note -->
+  <text x="450" y="128" font-family="'Arial', sans-serif" font-size="9" fill="#555570" text-anchor="middle" font-style="italic">Backend expertise drives every project. AI tools accelerate the full-stack journey.</text>
+</svg>

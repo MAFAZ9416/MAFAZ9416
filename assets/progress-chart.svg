@@ -1,0 +1,112 @@
+<svg width="900" height="210" viewBox="0 0 900 210" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="chartBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#161622"/>
+      <stop offset="100%" style="stop-color:#111117"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9D4EDD"/>
+      <stop offset="50%" style="stop-color:#00F5FF"/>
+      <stop offset="100%" style="stop-color:#B5FF4D"/>
+    </linearGradient>
+    <linearGradient id="areaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00F5FF;stop-opacity:0.18"/>
+      <stop offset="100%" style="stop-color:#00F5FF;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="lineGlow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="dotGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes chartPulse { 0%,100%{opacity:0.7} 50%{opacity:1} }
+      @keyframes dotPulse { 0%,100%{r:4;opacity:1} 50%{r:6;opacity:0.8} }
+      .chart-line{animation:chartPulse 3s ease-in-out infinite}
+      .live-dot{animation:dotPulse 2s ease-in-out infinite}
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="210" rx="14" fill="url(#chartBg)" stroke="#1E1E2E" stroke-width="1"/>
+  <!-- Left accent -->
+  <rect x="0" y="0" width="4" height="210" rx="2" fill="#00F5FF"/>
+
+  <!-- Header -->
+  <text x="22" y="28" font-family="'Courier New', monospace" font-size="10" fill="#00F5FF" letter-spacing="2">GITHUB CONTRIBUTION PROGRESS · 12 MONTHS</text>
+  <text x="800" y="28" font-family="'Courier New', monospace" font-size="8" fill="#555570" text-anchor="end">AUTO-UPDATED BY GITHUB ACTIONS</text>
+
+  <!-- Chart area -->
+  <!-- Y-axis labels -->
+  <text x="22" y="58" font-family="'Courier New', monospace" font-size="8" fill="#555570">HIGH</text>
+  <text x="22" y="108" font-family="'Courier New', monospace" font-size="8" fill="#555570">MED</text>
+  <text x="22" y="158" font-family="'Courier New', monospace" font-size="8" fill="#555570">LOW</text>
+
+  <!-- Grid lines -->
+  <g stroke="#1A1A2E" stroke-width="1">
+    <line x1="60" y1="50" x2="880" y2="50"/>
+    <line x1="60" y1="100" x2="880" y2="100"/>
+    <line x1="60" y1="150" x2="880" y2="150"/>
+    <line x1="60" y1="170" x2="880" y2="170"/>
+  </g>
+  <!-- Vertical grid marks -->
+  <g stroke="#1A1A2E" stroke-width="0.5" stroke-dasharray="3,3">
+    <line x1="128" y1="50" x2="128" y2="170"/>
+    <line x1="196" y1="50" x2="196" y2="170"/>
+    <line x1="264" y1="50" x2="264" y2="170"/>
+    <line x1="332" y1="50" x2="332" y2="170"/>
+    <line x1="400" y1="50" x2="400" y2="170"/>
+    <line x1="468" y1="50" x2="468" y2="170"/>
+    <line x1="536" y1="50" x2="536" y2="170"/>
+    <line x1="604" y1="50" x2="604" y2="170"/>
+    <line x1="672" y1="50" x2="672" y2="170"/>
+    <line x1="740" y1="50" x2="740" y2="170"/>
+    <line x1="808" y1="50" x2="808" y2="170"/>
+    <line x1="876" y1="50" x2="876" y2="170"/>
+  </g>
+
+  <!-- Area fill (placeholder data shape - will be replaced by GitHub Actions) -->
+  <path d="M60,160 C94,155 128,145 196,120 C264,95 300,140 332,130 C364,120 400,80 468,65 C536,50 570,90 604,75 C638,60 672,55 740,62 C808,69 842,58 876,55 L876,170 L60,170 Z"
+        fill="url(#areaGrad)"/>
+
+  <!-- Main line (placeholder data - replaced by GitHub Actions generated SVG) -->
+  <path d="M60,160 C94,155 128,145 196,120 C264,95 300,140 332,130 C364,120 400,80 468,65 C536,50 570,90 604,75 C638,60 672,55 740,62 C808,69 842,58 876,55"
+        fill="none" stroke="url(#lineGrad)" stroke-width="2.5" stroke-linecap="round" filter="url(#lineGlow)" class="chart-line"/>
+
+  <!-- Data points -->
+  <circle cx="60" cy="160" r="3" fill="#9D4EDD" filter="url(#dotGlow)"/>
+  <circle cx="128" cy="145" r="3" fill="#9D4EDD" filter="url(#dotGlow)"/>
+  <circle cx="196" cy="120" r="3" fill="#00F5FF" filter="url(#dotGlow)"/>
+  <circle cx="264" cy="95" r="3" fill="#00F5FF" filter="url(#dotGlow)"/>
+  <circle cx="332" cy="130" r="3" fill="#00F5FF" filter="url(#dotGlow)"/>
+  <circle cx="400" cy="80" r="3" fill="#00F5FF" filter="url(#dotGlow)"/>
+  <circle cx="468" cy="65" r="3" fill="#00F5FF" filter="url(#dotGlow)"/>
+  <circle cx="536" cy="50" r="3" fill="#B5FF4D" filter="url(#dotGlow)"/>
+  <circle cx="604" cy="75" r="3" fill="#00F5FF" filter="url(#dotGlow)"/>
+  <circle cx="672" cy="55" r="3" fill="#00F5FF" filter="url(#dotGlow)"/>
+  <circle cx="740" cy="62" r="3" fill="#00F5FF" filter="url(#dotGlow)"/>
+  <circle cx="808" cy="58" r="3" fill="#B5FF4D" filter="url(#dotGlow)"/>
+  <!-- Live dot (most recent) -->
+  <circle cx="876" cy="55" r="5" fill="#B5FF4D" filter="url(#dotGlow)" class="live-dot"/>
+  <circle cx="876" cy="55" r="10" fill="#B5FF4D" fill-opacity="0.2" class="live-dot"/>
+
+  <!-- X-axis month labels -->
+  <text x="60" y="185" font-family="'Courier New', monospace" font-size="7.5" fill="#555570" text-anchor="middle">Jan</text>
+  <text x="128" y="185" font-family="'Courier New', monospace" font-size="7.5" fill="#555570" text-anchor="middle">Feb</text>
+  <text x="196" y="185" font-family="'Courier New', monospace" font-size="7.5" fill="#555570" text-anchor="middle">Mar</text>
+  <text x="264" y="185" font-family="'Courier New', monospace" font-size="7.5" fill="#555570" text-anchor="middle">Apr</text>
+  <text x="332" y="185" font-family="'Courier New', monospace" font-size="7.5" fill="#555570" text-anchor="middle">May</text>
+  <text x="400" y="185" font-family="'Courier New', monospace" font-size="7.5" fill="#555570" text-anchor="middle">Jun</text>
+  <text x="468" y="185" font-family="'Courier New', monospace" font-size="7.5" fill="#555570" text-anchor="middle">Jul</text>
+  <text x="536" y="185" font-family="'Courier New', monospace" font-size="7.5" fill="#555570" text-anchor="middle">Aug</text>
+  <text x="604" y="185" font-family="'Courier New', monospace" font-size="7.5" fill="#555570" text-anchor="middle">Sep</text>
+  <text x="672" y="185" font-family="'Courier New', monospace" font-size="7.5" fill="#555570" text-anchor="middle">Oct</text>
+  <text x="740" y="185" font-family="'Courier New', monospace" font-size="7.5" fill="#555570" text-anchor="middle">Nov</text>
+  <text x="808" y="185" font-family="'Courier New', monospace" font-size="7.5" fill="#555570" text-anchor="middle">Dec</text>
+  <text x="876" y="185" font-family="'Courier New', monospace" font-size="7.5" fill="#B5FF4D" text-anchor="middle">NOW</text>
+
+  <!-- Bottom note -->
+  <text x="450" y="202" font-family="'Courier New', monospace" font-size="8" fill="#555570" text-anchor="middle">Chart updates daily via GitHub Actions · Real contribution data</text>
+</svg>

@@ -1,0 +1,110 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#161622"/>
+      <stop offset="100%" style="stop-color:#111117"/>
+    </linearGradient>
+    <linearGradient id="topBorderGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9D4EDD"/>
+      <stop offset="100%" style="stop-color:#C77DFF"/>
+    </linearGradient>
+    <linearGradient id="topBorderGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00F5FF"/>
+      <stop offset="100%" style="stop-color:#48CAE4"/>
+    </linearGradient>
+    <style>
+      @keyframes cardGlow1 { 0%,100%{opacity:0.7} 50%{opacity:1} }
+      @keyframes cardGlow2 { 0%,100%{opacity:0.7} 50%{opacity:1} }
+      .c1{animation:cardGlow1 3s ease-in-out infinite}
+      .c2{animation:cardGlow2 3s ease-in-out infinite 1.5s}
+    </style>
+  </defs>
+
+  <!-- Project Card 1: Progressly -->
+  <g class="c1">
+    <rect x="0" y="0" width="430" height="190" rx="14" fill="url(#cardBg)" stroke="#1E1E2E" stroke-width="1"/>
+    <!-- Top accent bar -->
+    <rect x="0" y="0" width="430" height="4" rx="2" fill="url(#topBorderGrad1)"/>
+    <!-- Left side glow -->
+    <rect x="0" y="4" width="4" height="186" rx="2" fill="#9D4EDD" opacity="0.6"/>
+
+    <!-- Terminal dots -->
+    <circle cx="20" cy="22" r="4" fill="#FF5F57"/>
+    <circle cx="34" cy="22" r="4" fill="#FEBC2E"/>
+    <circle cx="48" cy="22" r="4" fill="#28C840"/>
+    <text x="68" y="27" font-family="'Courier New', monospace" font-size="9" fill="#555570">progressly/</text>
+
+    <!-- Project icon -->
+    <text x="20" y="62" font-family="'Arial', sans-serif" font-size="22">📈</text>
+
+    <!-- Project name -->
+    <text x="55" y="55" font-family="'Arial', sans-serif" font-size="18" font-weight="bold" fill="#E8E8F0" letter-spacing="1">Progressly</text>
+    <text x="55" y="72" font-family="'Courier New', monospace" font-size="9" fill="#9D4EDD">Backend · REST API · Dashboard</text>
+
+    <!-- Description -->
+    <text x="20" y="96" font-family="'Arial', sans-serif" font-size="10" fill="#8888AA">A backend-powered progress tracking platform</text>
+    <text x="20" y="112" font-family="'Arial', sans-serif" font-size="10" fill="#8888AA">with REST APIs, authentication, and analytics.</text>
+    <text x="20" y="128" font-family="'Arial', sans-serif" font-size="10" fill="#8888AA">Built with Django and PostgreSQL.</text>
+
+    <!-- Tech stack pills -->
+    <rect x="20" y="142" width="52" height="18" rx="9" fill="#1A1A2E" stroke="#9D4EDD" stroke-width="0.8"/>
+    <text x="46" y="155" font-family="'Courier New', monospace" font-size="8" fill="#9D4EDD" text-anchor="middle">Python</text>
+
+    <rect x="78" y="142" width="52" height="18" rx="9" fill="#1A1A2E" stroke="#9D4EDD" stroke-width="0.8"/>
+    <text x="104" y="155" font-family="'Courier New', monospace" font-size="8" fill="#9D4EDD" text-anchor="middle">Django</text>
+
+    <rect x="136" y="142" width="36" height="18" rx="9" fill="#1A1A2E" stroke="#00F5FF" stroke-width="0.8"/>
+    <text x="154" y="155" font-family="'Courier New', monospace" font-size="8" fill="#00F5FF" text-anchor="middle">DRF</text>
+
+    <rect x="178" y="142" width="66" height="18" rx="9" fill="#1A1A2E" stroke="#00F5FF" stroke-width="0.8"/>
+    <text x="211" y="155" font-family="'Courier New', monospace" font-size="8" fill="#00F5FF" text-anchor="middle">PostgreSQL</text>
+
+    <!-- Repository link -->
+    <text x="20" y="178" font-family="'Courier New', monospace" font-size="9" fill="#555570">github.com/MAFAZ9416/Progressly</text>
+    <text x="390" y="178" font-family="'Courier New', monospace" font-size="10" fill="#C77DFF" text-anchor="end">→ View</text>
+  </g>
+
+  <!-- Project Card 2: VELTO Conversion -->
+  <g class="c2">
+    <rect x="470" y="0" width="430" height="190" rx="14" fill="url(#cardBg)" stroke="#1E1E2E" stroke-width="1"/>
+    <!-- Top accent bar -->
+    <rect x="470" y="0" width="430" height="4" rx="2" fill="url(#topBorderGrad2)"/>
+    <!-- Left side glow -->
+    <rect x="470" y="4" width="4" height="186" rx="2" fill="#00F5FF" opacity="0.6"/>
+
+    <!-- Terminal dots -->
+    <circle cx="490" cy="22" r="4" fill="#FF5F57"/>
+    <circle cx="504" cy="22" r="4" fill="#FEBC2E"/>
+    <circle cx="518" cy="22" r="4" fill="#28C840"/>
+    <text x="538" y="27" font-family="'Courier New', monospace" font-size="9" fill="#555570">velto-conversion/</text>
+
+    <!-- Project icon -->
+    <text x="490" y="62" font-family="'Arial', sans-serif" font-size="22">⚡</text>
+
+    <!-- Project name -->
+    <text x="525" y="55" font-family="'Arial', sans-serif" font-size="18" font-weight="bold" fill="#E8E8F0" letter-spacing="1">VELTO Conversion</text>
+    <text x="525" y="72" font-family="'Courier New', monospace" font-size="9" fill="#00F5FF">Backend · API · AI-Assisted</text>
+
+    <!-- Description -->
+    <text x="490" y="96" font-family="'Arial', sans-serif" font-size="10" fill="#8888AA">A conversion and processing platform with</text>
+    <text x="490" y="112" font-family="'Arial', sans-serif" font-size="10" fill="#8888AA">Django backend, REST APIs, and AI-assisted</text>
+    <text x="490" y="128" font-family="'Arial', sans-serif" font-size="10" fill="#8888AA">frontend development workflow.</text>
+
+    <!-- Tech stack pills -->
+    <rect x="490" y="142" width="52" height="18" rx="9" fill="#1A1A2E" stroke="#00F5FF" stroke-width="0.8"/>
+    <text x="516" y="155" font-family="'Courier New', monospace" font-size="8" fill="#00F5FF" text-anchor="middle">Python</text>
+
+    <rect x="548" y="142" width="52" height="18" rx="9" fill="#1A1A2E" stroke="#00F5FF" stroke-width="0.8"/>
+    <text x="574" y="155" font-family="'Courier New', monospace" font-size="8" fill="#00F5FF" text-anchor="middle">Django</text>
+
+    <rect x="606" y="142" width="52" height="18" rx="9" fill="#1A1A2E" stroke="#C77DFF" stroke-width="0.8"/>
+    <text x="632" y="155" font-family="'Courier New', monospace" font-size="8" fill="#C77DFF" text-anchor="middle">REST API</text>
+
+    <rect x="664" y="142" width="52" height="18" rx="9" fill="#1A1A2E" stroke="#B5FF4D" stroke-width="0.8"/>
+    <text x="690" y="155" font-family="'Courier New', monospace" font-size="8" fill="#B5FF4D" text-anchor="middle">Docker</text>
+
+    <!-- Repository link -->
+    <text x="490" y="178" font-family="'Courier New', monospace" font-size="9" fill="#555570">github.com/MAFAZ9416/VELTO-Conversion</text>
+    <text x="860" y="178" font-family="'Courier New', monospace" font-size="10" fill="#00F5FF" text-anchor="end">→ View</text>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg width="900" height="60" viewBox="0 0 900 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="quoteBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#161622"/>
+      <stop offset="100%" style="stop-color:#111117"/>
+    </linearGradient>
+    <linearGradient id="quoteAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9D4EDD"/>
+      <stop offset="100%" style="stop-color:#00F5FF"/>
+    </linearGradient>
+    <style>
+      @keyframes quoteShimmer { 0%,100%{opacity:0.85} 50%{opacity:1} }
+      .quote-text{animation:quoteShimmer 4s ease-in-out infinite}
+    </style>
+  </defs>
+
+  <rect width="900" height="60" rx="12" fill="url(#quoteBg)" stroke="#1E1E2E" stroke-width="1"/>
+  <!-- Left quote mark accent -->
+  <text x="20" y="45" font-family="'Georgia', serif" font-size="40" fill="#9D4EDD" opacity="0.3">"</text>
+  <!-- Right quote mark accent -->
+  <text x="870" y="52" font-family="'Georgia', serif" font-size="40" fill="#00F5FF" opacity="0.3" text-anchor="end">"</text>
+
+  <!-- Quote text -->
+  <text x="450" y="37" font-family="'Arial', 'Georgia', serif" font-size="14" fill="#E8E8F0" text-anchor="middle" font-style="italic" class="quote-text">Consistency turns code into capability.</text>
+
+  <!-- Bottom accent line -->
+  <rect x="200" y="55" width="500" height="1" fill="url(#quoteAccent)" opacity="0.6"/>
+</svg>
