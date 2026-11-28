@@ -128,6 +128,8 @@ class MohammedMafaz:
 <br/>
 
 <div align="center">
+
+
   <img src="https://raw.githubusercontent.com/MAFAZ9416/MAFAZ9416/main/assets/section-divider.svg" width="100%" alt=""/>
 </div>
 
