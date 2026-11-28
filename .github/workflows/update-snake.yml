@@ -1,0 +1,34 @@
+name: Update Contribution Snake
+
+on:
+  schedule:
+    # Runs daily at 01:00 UTC
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/update-snake.yml"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution snake SVGs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: MAFAZ9416
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+
+      - name: Commit and push snake SVGs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update contribution snake [skip ci]"
+          file_pattern: dist/*.svg

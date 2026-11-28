@@ -1,0 +1,42 @@
+name: Update Progress Chart
+
+on:
+  schedule:
+    # Runs daily at 00:30 UTC
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/generate_chart.py"
+      - ".github/workflows/update-chart.yml"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate progress chart SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: MAFAZ9416
+          OUTPUT_PATH: assets/progress-chart.svg
+        run: python scripts/generate_chart.py
+
+      - name: Commit and push updated chart
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/progress-chart.svg
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "chore: update progress chart [skip ci]"
+          git push
